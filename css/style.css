@@ -1,0 +1,241 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  height: 100%;
+  width: auto;
+}
+.furgo {
+  width: 300px;
+  height: auto;
+}
+#container {
+  width: 100%;
+  position: relative;
+}
+.field-icon {
+  float: right;
+  margin-left: -25px;
+  margin-top: -25px;
+  position: relative;
+  z-index: 2;
+}
+#gradient {
+  width: 100%;
+  background-image: url("../img/gradient_left.png"),
+    url("../img/gradient_right.png");
+  background-position: top left, top right;
+  background-size: 100% cover;
+  background-repeat: no-repeat, no-repeat;
+  margin: auto;
+  padding-bottom: 55vh;
+  text-align: center;
+  border-bottom-left-radius: 50% 25%;
+  border-bottom-right-radius: 50% 25%;
+}
+@media (max-width: 584px) {
+  #gradient {
+    background-image: url("../img/gradient_left.png");
+    background-size: cover;
+  }
+  .furgo {
+    width: 50%;
+  }
+}
+
+#top {
+  justify-content: center;
+  padding-top: 10rem;
+}
+#form {
+  position: relative;
+  top: -20rem;
+  width: 25%;
+  margin: auto;
+  margin-bottom: 2rem;
+  box-shadow: 0px 1px 10px #999;
+  border-radius: 2%;
+  background-color: white;
+  padding-bottom: 2rem;
+  max-width: 700px;
+  padding: 25px 30px;
+}
+#form .title {
+  font-size: 25px;
+  font-weight: 700;
+  position: relative;
+  text-align: center;
+}
+#form p {
+  text-align: center;
+}
+#form form .user-details {
+  display: block;
+
+  justify-content: space-between;
+  margin: 20px 0 12px 0;
+}
+form .user-details .input-box {
+  margin: 20px 0 12px 0;
+  width: 80%;
+  margin: auto;
+}
+.user-details .input-box .details {
+  display: block;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+.user-details .input-box input {
+  height: 30px;
+  width: 100%;
+  margin: auto;
+}
+form .button {
+  height: 45px;
+  margin-top: 25px;
+  margin-left: 18px;
+  margin-right: 12px;
+  padding: 10px 24px;
+  display: block;
+}
+form .button input {
+  height: 100%;
+  width: 100%;
+  outline: none;
+  color: rgb(0, 0, 0);
+  background-color: #fdd73f;
+  border: none;
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 5px;
+  letter-spacing: 1px;
+  margin-left: auto;
+  margin-right: auto;
+}
+form .button input:hover {
+  background-color: #bd9b14;
+  transition: 0.4s;
+}
+@media (max-width: 584px) {
+  #form {
+    max-width: 80%;
+    width: 80%;
+  }
+  form .user-details .input-box {
+    margin-bottom: 15px;
+    width: 100%;
+  }
+  #form form .user-details {
+    max-height: 300px;
+  }
+  form .button input {
+    width: 100%;
+  }
+}
+#testim {
+  margin: auto;
+  text-align: center;
+  width: 70%;
+}
+#zysk {
+  top: -12rem;
+  text-align: center;
+  margin-bottom: -10rem;
+}
+#zysk,
+#testim {
+  overflow: hidden;
+  position: relative;
+}
+#counter {
+  background-color: #f6fafd;
+  text-align: center;
+  position: relative;
+}
+.reviews img {
+  width: 15%;
+}
+.grid {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-gap: 1rem;
+}
+
+@media (min-width: 584px) {
+  .grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media (max-width: 584px) {
+  .grid img {
+    height: 50%;
+  }
+}
+.grid-second {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-gap: 1rem;
+}
+@media (min-width: 584px) {
+  .grid-second {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .grid-second img {
+    width: 50%;
+  }
+
+  .grid-second br {
+    display: block;
+    content: "";
+    margin-top: 0;
+  }
+}
+.thick {
+  font-weight: 900;
+  font-size: xx-large;
+}
+.thin {
+  font-weight: 600;
+  font-size: larger;
+}
+#finish {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+#finish .button input {
+  height: 100%;
+  width: 20%;
+  outline: none;
+  color: rgb(0, 0, 0);
+  background-color: #fdd73f;
+  border: none;
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 5px;
+  letter-spacing: 1px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#finish .button input:hover {
+  background-color: #bd9b14;
+  transition: 0.4s;
+}
+#finish .button {
+  height: 45px;
+  margin-top: 25px;
+  margin-left: 18px;
+  margin-right: 12px;
+  padding: 10px 24px;
+  display: block;
+}
+@media (max-width: 584px) {
+  #finish {
+    width: 100%;
+  }
+  #finish .button input {
+    width: 100%;
+  }
+}
