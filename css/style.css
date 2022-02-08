@@ -4,6 +4,8 @@
 body {
   height: 100%;
   width: auto;
+  margin: 0;
+  padding: 0;
 }
 .furgo {
   width: 300px;
@@ -11,7 +13,6 @@ body {
 }
 #container {
   width: 100%;
-  position: relative;
 }
 .field-icon {
   float: right;
@@ -49,7 +50,7 @@ body {
 }
 #form {
   position: relative;
-  top: -20rem;
+  top: -40vh;
   width: 25%;
   margin: auto;
   margin-bottom: 2rem;
@@ -138,9 +139,10 @@ form .button input:hover {
   width: 70%;
 }
 #zysk {
-  top: -12rem;
+  top: -25vh;
   text-align: center;
   margin-bottom: -10rem;
+  padding-bottom: 5rem;
 }
 #zysk,
 #testim {
@@ -153,8 +155,12 @@ form .button input:hover {
   position: relative;
 }
 .reviews img {
-  width: 15%;
+  margin-top: 8px;
+  width: 100%;
+  background-color: white;
+  border-radius: 50%;
 }
+
 .grid {
   max-width: 1200px;
   margin: 0 auto;
