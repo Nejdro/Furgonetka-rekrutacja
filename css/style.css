@@ -50,7 +50,7 @@ body {
 }
 #form {
   position: relative;
-  top: -40vh;
+  top: -50vh;
   width: 25%;
   margin: auto;
   margin-bottom: 2rem;
@@ -156,11 +156,7 @@ form .button input:hover {
 }
 .reviews img {
   margin-top: 8px;
-<<<<<<< HEAD
-  width: 100%;
-=======
   width: 50%;
->>>>>>> cd2736de6802c8b3137ae47e46e5c597fdfa1465
   background-color: white;
   border-radius: 50%;
 }
